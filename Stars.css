@@ -1,0 +1,8 @@
+.star {
+    cursor: pointer;
+}
+
+.star:hover,
+.star.filled {
+    color: gold;
+}

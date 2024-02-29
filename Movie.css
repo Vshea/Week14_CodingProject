@@ -1,0 +1,30 @@
+.movie {
+    border: 1px solid #ccc; /* Add border with a light gray color */
+    padding: 10px; /* Add some padding for spacing */
+    margin-bottom: 20px; /* Add margin between movies */
+}
+
+.movie-container {
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .movie-container .col-md-8 {
+    flex: 1; /* Make the movie column flexible */
+  }
+  
+  .movie-container .col-md-4 {
+    flex: 1; /* Make the review column flexible */
+  }
+  
+  .review-box {
+    border: 1px solid #ccc; /* Border style */
+    padding: 20px; /* Padding around the content */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Background color */
+    height: 100%; /* Set the height to match its container */
+  }
+  
+  .review-box h2 {
+    margin-top: 0; /* Remove top margin from the heading */
+  }
+  
